@@ -1,2 +1,234 @@
-# Dsa--Project-1
-Amazon Product Analysis Report 
+# Amazon Product Review Analysis.
+
+## Introduction: My Learning Journey
+Starting this data analysis project was a big step in my path to becoming a skilled Data Analyst. I’ve been learning how to use Excel, create pivot tables, make charts, and design dashboards. This project gave me a chance to put all these skills into action by working on a real business problem—understanding customer reviews and product performance.
+
+## Project Overview
+
+The main goal of this project is to help Amazon sellers make better decisions by analyzing customer reviews and product data. As a Junior Analyst at RetailTech Insights, I looked at product reviews and details to find useful insights. These insights can help improve products, marketing, and customer experience.
+
+## Project Topic
+
+This project focused on Amazon Product Review Analysis. It involved looking at customer feedback, product prices, and ratings. The goal was to find out:
+
+- What makes a product successful
+
+- What areas need improvement
+
+- How customer feelings match with star ratings
+
+
+By analyzing over a thousand products from different categories, I found patterns in:
+
+Ratings and number of reviews
+
+Price strategies (discounted vs. original price)
+
+Best-selling product categories
+
+What customers like or don’t like
+
+
+These insights can help sellers:
+
+Set better prices
+
+Plan smarter marketing campaigns
+
+Manage stock
+
+Keep customers happy
+
+
+This kind of analysis is important today, especially on platforms like Amazon where reviews and prices affect buying decisions.
+
+
+## Case Study: Dataset Details
+
+Source: Scraped from Amazon product pages
+
+Total Products: 1,465
+
+Columns: 16
+
+-- Key Info Includes: Product name, category, prices (original and discounted), discounts, ratings, number of reviews, and review comments
+
+
+Each row in the dataset represents one product with all its key details.
+
+
+## Tools Used
+
+-- Microsoft Excel was used for:
+
+Cleaning the data
+
+Analyzing with pivot tables
+
+Creating charts
+
+Building the dashboard
+
+
+## Data Cleaning Steps
+
+Removed empty rows and repeated entries
+
+Organized values from comma-separated format
+
+Made prices and discounts easy to read
+
+Added new columns for things like potential revenue
+
+Grouped products by price range
+
+
+
+## Steps in the Analysis
+
+1. Loaded the clean data into Excel
+
+
+2. Created new columns (like revenue, price range)
+
+
+3. Used pivot tables to sort data by category, rating, and discount
+
+
+4. Added filters and slicers to explore the data
+
+
+5. Built charts (bar, pie, column)
+
+
+6. Created a dashboard with key numbers, visuals, and summaries
+
+
+
+
+## Key Business Questions & Answers
+
+1. What’s the average discount per category?
+
+Health & Personal Care (52.68%)
+
+Computers & Accessories (52.38%)
+
+
+2. How many products are in each category?
+
+Electronics: 454
+
+Home & Kitchen: 448
+
+Computers & Accessories: 319
+
+
+3. Which category has the most reviews?
+
+Health & Personal Care
+
+
+4. Highest rated products?
+
+Redtech USB-C to Lightning
+
+Amazon Basics Wireless Mouse
+
+Syncwire Ltg to USB
+(All have 5.0 rating)
+
+
+5. Average original vs discounted prices?
+
+Electronics: ₹10,754 → ₹6,527
+
+Computers & Accessories: ₹2,032 → ₹1,055
+
+
+6. Most reviewed products?
+
+Amazon Basics HDMI (426,973 reviews)
+
+Boat Bassheads 100
+
+Redmi 9A (Sport and Active)
+
+
+7. How many products have discounts of 50% or more?
+
+583 products
+
+
+8. What’s the general rating range?
+
+Most ratings are between 4.0 and 4.4
+
+
+9. Category with highest potential revenue?
+
+Health & Personal Care: ₹6,959,700
+
+
+10. How many products fall into each price range?
+
+Most are under ₹2,000
+
+
+11. Is there a link between ratings and discounts?
+
+Weak negative link (−0.145), meaning more discount doesn’t always mean better ratings
+
+
+12. How many products have fewer than 1,000 reviews?
+
+293 products (about 20%)
+
+
+13. Categories with highest discounts?
+
+Computers & Accessories (up to 94%)
+
+Electronics (up to 91%)
+
+Home & Kitchen (up to 90%)
+
+
+14. Top 5 products by rating and review count?
+
+Amazon Basics HDMI
+
+Boat Bassheads 100
+
+Redmi 9A Sport
+
+Redmi 9A Active
+
+
+## Final Dashboard
+
+The dashboard includes:
+
+Key stats (revenue, reviews, top-rated products)
+
+Charts (category comparison, discounts, ratings)
+
+Slicers to filter by category
+
+A section that highlights top products
+
+
+
+## Conclusion & Recommendations
+
+Suggestions for Amazon Sellers:
+
+Focus on strong categories like Electronics and Books
+
+Consider removing products with ratings below 3 stars
+
+Discounts don’t always lead to better ratings—use them wisely
+
+Products with many reviews usually perform well—invest more in them
+
+Keep prices competitive, especially in the ₹200–₹500 range.
